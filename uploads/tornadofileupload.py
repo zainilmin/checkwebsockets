@@ -27,7 +27,6 @@ application = tornado.web.Application([
         (r"/upload", Upload),
         ], debug=True)
 
-
 if __name__ == "__main__":
     application.listen(8888)
     tornado.ioloop.IOLoop.instance().start()
